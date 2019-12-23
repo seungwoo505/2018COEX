@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="위치설정"
+        android:textSize="17dp"
+        android:id="@+id/setlocation"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/settime"
+        android:layout_alignStart="@+id/settime" />
+
+    <Button
+        android:id="@+id/checkdust"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="측정시작"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_alignBottom="@+id/settime"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/setlocation"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="측정시간"
+        android:id="@+id/settime"
+        android:textSize="17dp"
+        android:layout_below="@+id/setlocation"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"/>
+
+
+    <ImageView
+        android:id="@+id/setImage"
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp" />
+
+    <TextView
+        android:id="@+id/dust1text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setImage"
+        android:layout_marginLeft="30dp"
+        android:text="미세먼지(PM10)"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/dust2text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setImage"
+        android:layout_marginLeft="195dp"
+        android:text="초미세먼지(PM2.5)"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="19dp" />
+
+
+    <TextView
+        android:id="@+id/dustvalue1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dust1text"
+        android:layout_marginLeft="30dp"
+        android:layout_weight="0.35"
+        android:textSize="35dp"
+        />
+
+    <TextView
+        android:id="@+id/dustvalue2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dust2text"
+        android:layout_marginLeft="195dp"
+        android:layout_weight="0.35"
+        android:textSize="35dp"/>
+
+
+    <TextView
+        android:id="@+id/blank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dust1text"
+        android:layout_marginLeft="90dp"
+        android:text="      "
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/ug_m1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blank"
+        android:layout_marginLeft="90dp"
+        android:text="ug/m3"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/ug_m2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blank"
+        android:layout_marginLeft="255dp"
+        android:text="ug/m3"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/doit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:text="행동수칙"
+        android:textSize="20dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/checkdust"
+        android:layout_below="@+id/checkdust"
+        android:text="실내/외"
+        android:textSize="13dp"
+        android:layout_alignRight="@+id/checkdust" />
+
+
+</RelativeLayout>
