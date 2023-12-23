@@ -2,7 +2,7 @@
 
 ## UI
 
-![MainScreen](https://github.com/seungwoo505/2018COEX/blob/main/mainScreen.png)
+![MainScreen](https://github.com/seungwoo505/2018COEX/blob/master/mainScreen.png)
 
 ## 설명
 
