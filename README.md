@@ -1,5 +1,11 @@
 # COEX 전시회 작품(전시 실패, 작품명: 미세먼지 측정 및 공기청정기)
 
+## 개요
+
+학교에서 COEX에 학교 대표로 나갈 동아리를 선별하고 COEX에서 실제로 외부 사람에게 공개하는 행사입니다.
+
+이 프로젝트는 COEX에 학교 대표로서 뽑히진 못한 결과물입니다.
+
 ## UI
 
 ![MainScreen](https://github.com/seungwoo505/2018COEX/blob/master/mainScreen.png)
