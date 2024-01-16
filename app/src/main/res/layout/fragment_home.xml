@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:textColor="@color/color_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="위치설정"
+        android:textSize="17dp"
+        android:id="@+id/setlocation"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/settime"
+        android:layout_alignStart="@+id/settime" />
+
+    <Button
+        android:id="@+id/checkdust"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="측정시작"
+
+
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_alignBottom="@+id/settime"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/setlocation" />
+
+    <TextView
+        android:textColor="@color/color_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="측정시간"
+        android:id="@+id/settime"
+        android:textSize="17dp"
+        android:layout_below="@+id/setlocation"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"/>
+
+    <ImageView
+        android:id="@+id/setImage"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/switch1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="@color/color_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="실내/외를 설정해주세요"
+        android:textSize="25dp"
+        android:layout_below="@+id/setImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:textColor="@color/color_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="오늘의 행동수칙"
+        android:textSize="20dp"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:textColor="@color/color_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="측정시작 버튼을 눌러주세요"
+        android:textSize="17dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/settime"
+        android:layout_alignStart="@+id/settime"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="33dp"
+        android:id="@+id/settext"
+        />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="실내/외"
+        android:textSize="13dp"
+        android:layout_below="@+id/checkdust"
+        android:layout_marginTop="10dp"
+        android:layout_alignRight="@+id/checkdust"
+        android:layout_alignEnd="@+id/checkdust"
+        android:layout_toRightOf="@+id/setImage"
+        android:layout_toEndOf="@+id/setImage" />
+</RelativeLayout>
