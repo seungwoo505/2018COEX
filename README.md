@@ -8,6 +8,8 @@
 
 개인 기여도 : 90%
 
+제작 기간 : 2018.06 ~ 2018.08
+
 ## UI
 
 ![MainScreen](https://github.com/seungwoo505/2018COEX/blob/main/mainScreen.png)
