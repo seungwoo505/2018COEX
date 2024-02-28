@@ -11,8 +11,7 @@
 제작 기간 : 2018.06 ~ 2018.08
 
 ## UI
-
-![MainScreen](https://github.com/seungwoo505/2018COEX/blob/main/mainScreen.png)
+<img src="https://github.com/seungwoo505/2018COEX/blob/main/mainScreen.png" height="500"/>
 
 ## 설명
 
